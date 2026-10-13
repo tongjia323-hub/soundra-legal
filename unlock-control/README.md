@@ -6,7 +6,10 @@ These app-specific pages document the current local-development implementation o
 - Support: https://tongjia323-hub.github.io/soundra-legal/unlock-control/support.html
 - Language index: https://tongjia323-hub.github.io/soundra-legal/unlock-control/
 - English privacy: https://tongjia323-hub.github.io/soundra-legal/unlock-control/en/privacy.html
-- Six languages: zh-Hans, zh-Hant, en, ja, ko, es
+- Default language: English
+- Six languages: en, zh-Hans, zh-Hant, ja, ko, es
+- Policy version: 0.4, updated 2026-10-13
+- Includes local parent PIN verification, credential retention and recovery limitations.
 - Maintenance account: tongjia323-hub
 - Existing public support address: tongjia323@gmail.com
 
