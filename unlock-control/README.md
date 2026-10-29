@@ -1,5 +1,32 @@
 # Unlock Control privacy and support pages
 
+## Current preparation · version 1.0 · 2026-10-29
+
+These pages describe the iPhone/iPad app version 1.0 and its Device Activity extension. They do not announce App Store approval or public availability. This revision is prepared locally for review; repository publication and live-page verification are separate steps.
+
+- Operator: SHENGJIA TONG, confirmed by the operator on 2026-10-29.
+- Privacy/support email: tongjia323@gmail.com, retained as the public contact.
+- Support requests are voluntarily sent by parents/guardians and are used only for request handling, necessary follow-up and applicable legal obligations; not marketing, advertising or analytics.
+- Policy version: 1.0, updated 2026-10-29.
+- App: free download, complete word-task flow free, other task types unlocked by one non-consumable purchase. Configured US price: US$3.99; the actual localized price is shown by Apple. No subscription or automatic renewal.
+- Tasks, photos, OCR, drafts, practice records and exercise counting are processed on the device; no developer upload or cloud family synchronization.
+- Parent PIN change requires the current PIN. Forgotten-PIN recovery and remote reset remain unavailable; Keychain credentials may survive reinstall.
+- Exercise counts remain estimates for parent review. No microphone recording, automatic music grading or automatic reading grading.
+- Apple StoreKit processes purchase/restoration; the app verifies entitlements locally, without a developer receipt server.
+- Policy and support links open externally; the static website has no added scripts, analytics, forms or app database connection. GitHub hosting logs and Gmail are described separately.
+- Six languages: en, zh-Hans, zh-Hant, ja, ko, es. English root copies remain available.
+- Privacy: https://tongjia323-hub.github.io/soundra-legal/unlock-control/privacy.html
+- Support: https://tongjia323-hub.github.io/soundra-legal/unlock-control/support.html
+- Language index: https://tongjia323-hub.github.io/soundra-legal/unlock-control/
+
+This revision changes only these six privacy/support pairs, the English root copies, this app's language index and this README (16 files). The stylesheet and all other app paths are unchanged. It contains no family records, source code, child media or signing material. Final signed-binary review and App Store privacy publication remain separate checks.
+
+## Historical preparation records
+
+The records below describe earlier revisions and are retained for traceability. Their old candidate/publication statements do not describe the current 1.0 preparation.
+
+# Unlock Control privacy and support pages
+
 These app-specific pages document the current local-development implementation of 解锁控制 / Unlock Control. The release app's processing scope must be reviewed before submission.
 
 - Privacy: https://tongjia323-hub.github.io/soundra-legal/unlock-control/privacy.html
