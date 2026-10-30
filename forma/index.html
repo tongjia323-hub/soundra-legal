@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Forma 视频转换：通用 MP4、HEVC、音频提取与视频瘦身。本机处理，一次买断，无订阅。">
+<title>Forma Video Converter · 一次买断</title>
+<style>
+[hidden]{display:none!important}
+*{box-sizing:border-box}body{margin:0;background:#17191b;color:#eceef0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:0}button,a{font:inherit}button{cursor:pointer}header.review{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;align-items:center;padding:18px 16px}header.review button{background:none;color:#a9b0b6;border:0;border-bottom:2px solid transparent;padding:10px 15px;font-size:13px}header.review button[aria-selected=true]{color:#e9f0f4;border-color:#88beed}.note{text-align:center;color:#9da4ab;font-size:11px;line-height:1.6;margin:0 12px 18px}.stage{width:390px;max-width:100%;margin:0 auto 28px}.screen{position:relative;isolation:isolate;width:100%;min-height:844px;background:#08090b;overflow:hidden}.screen:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(130deg,#ffffff08,transparent 50%)}.status{display:flex;justify-content:space-between;align-items:center;padding:18px 27px 13px;font-size:13px;font-weight:600;height:50px}.status span:last-child{font-size:11px}.purchase{padding:28px 25px 25px}.top{display:flex;align-items:center;justify-content:space-between}.wordmark{font-size:12px;font-weight:600;color:#9da5ac}.close{width:40px;height:40px;border:1px solid #34373b;border-radius:8px;background:linear-gradient(#242629,#111214);box-shadow:inset 0 1px #ffffff20,0 6px 12px #0008;color:#aeb4b9;font-size:23px}.badge{display:inline-flex;align-items:center;gap:7px;font-size:11px;color:#8fc3ee;margin:16px 0 10px}.badge:before{content:"";width:5px;height:5px;background:#93c7ee;border-radius:50%}h1{margin:0;font-size:29px;line-height:1.25;font-weight:600}p.lead{color:#a1a7ad;font-size:13px;line-height:1.65;margin:10px 0 23px}.offer{position:relative;padding:21px 20px 20px;border-radius:8px;border:1px solid #536578;background:linear-gradient(135deg,#1d232a,#0b0d10 65%);box-shadow:inset 0 1px #ffffff24,inset 0 -2px #000,0 14px 22px #0006}.price-top{display:flex;align-items:center;justify-content:space-between;font-size:11px;color:#a8b0b8}.savings{color:#aad6ba;font-size:11px}.price{display:flex;align-items:baseline;gap:14px;margin:15px 0 5px}.old{font-size:20px;color:#8c939a;text-decoration-line:line-through;text-decoration-color:#adb3b8;text-decoration-thickness:2px}.amount{font-size:48px;font-weight:600;color:#f2f4f6;line-height:1.15;font-variant-numeric:tabular-nums}.currency{font-size:13px;color:#c0c8cf;margin-right:5px;font-weight:400}.lifetime{font-size:13px;color:#c4ccd3;margin-top:7px}.rule{font-size:11px;color:#89949d;margin-top:9px}.features{display:grid;grid-template-columns:1fr 1fr;gap:19px 12px;margin:26px 0;padding-bottom:24px;border-bottom:1px solid #ffffff12}.feature{display:flex;gap:8px;align-items:center;font-size:12px;color:#c8cdd2}.check{color:#8fc3ee;font-size:13px}.cta{width:100%;min-height:56px;display:flex;align-items:center;justify-content:space-between;padding:14px 18px;color:#e5f1fb;font-size:15px;font-weight:600;border:1px solid #79a9d2;border-radius:8px;background:linear-gradient(#243746,#12202b);box-shadow:inset 0 1px #d5ebff35,inset 0 -2px #000a,0 8px 16px #0005}.cta .arrow{font-size:21px;font-weight:400}.payment-note{text-align:center;color:#87919a;font-size:10px;margin:10px 0 15px}.restore{display:block;border:0;background:none;color:#b3bdc6;width:100%;padding:10px;font-size:12px}.legal{display:flex;justify-content:center;gap:25px;margin-top:16px}.legal a{color:#7e8993;font-size:10px;text-decoration:none}.home{position:absolute;bottom:8px;width:120px;height:4px;border-radius:4px;background:#e1e4e6;left:50%;transform:translateX(-50%)}.feedback{font-size:11px;color:#b1c3d3;text-align:center;min-height:18px;margin:12px 0 0}.web .status,.web .close,.web .home{display:none}.web .purchase{padding-top:35px}.web h1{font-size:32px}.web .wordmark{display:flex;align-items:center;gap:10px;color:#e4e7e9;font-size:16px}.web .wordmark img{height:38px;width:38px;border-radius:8px}.wordmark img{display:none}.web .wordmark img{display:block}.website-screens{display:none}.web .website-screens{display:flex;gap:12px;overflow:auto;margin-top:27px;scroll-snap-type:x mandatory}.website-screens img{width:135px;height:290px;object-fit:cover;border:1px solid #383e44;scroll-snap-align:start}.web .screen{min-height:1020px}.web .badge{margin-top:28px}.english .amount{font-size:46px}@media(max-width:430px){body{background:#08090b}.stage{margin-bottom:0}header.review{padding-top:9px}.note{margin-bottom:8px}.screen{min-height:max(844px,100svh)}}
+.legal a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px}
+button:focus-visible,a:focus-visible{outline:2px solid #88beed;outline-offset:3px}
+</style>
+<header class="review"><button id="language" type="button" aria-label="Switch to English" hidden>EN</button></header>
+<p class="note" id="draftNote" hidden></p>
+<main class="stage web" id="stage">
+<section class="screen" id="screen">
+  <div class="status"><span>9:41</span><span>▮▮▮ &nbsp; Wi-Fi &nbsp; ▰</span></div>
+  <div class="purchase">
+    <div class="top"><div class="wordmark"><img src="assets/icon.png" width="38" height="38" alt="Forma 应用图标">FORMA</div></div>
+    <div class="badge" id="badge" hidden>升级特惠</div>
+    <h1 id="title">好用的格式，<br>一次解锁。</h1>
+    <p class="lead" id="lead">MP4、HEVC、音频提取与视频瘦身。<br>在你的设备上，完成每一次转换。</p>
+    <section class="offer" aria-label="一次买断">
+      <div class="price-top"><span id="access">FORMA 终身买断</span><span class="savings" id="saving" hidden></span></div>
+      <div class="price" hidden><span class="old"></span><strong class="amount"></strong></div>
+      <div class="lifetime" id="lifetime">一次买断 · 解锁全部四种转换模式</div>
+      <div class="rule" id="rule">不订阅，不自动续费。</div>
+    </section>
+    <div class="features">
+      <div class="feature"><span class="check">✓</span><span id="f1">通用 MP4</span></div><div class="feature"><span class="check">✓</span><span id="f2">HEVC 小体积</span></div>
+      <div class="feature"><span class="check">✓</span><span id="f3">提取音频</span></div><div class="feature"><span class="check">✓</span><span id="f4">视频瘦身</span></div>
+    </div>
+    <a class="cta" id="buy" style="text-decoration:none" href="https://apps.apple.com/app/id6770423496"><span id="buyLabel">前往 App Store · App 内买断</span><span class="arrow">→</span></a>
+    <p class="payment-note" id="paymentNote">免费下载，买断在 App 内通过 Apple 购买；不订阅</p>
+    <p class="payment-note" id="trialSummary">三天试用仅开放通用 MP4。到期后需买断；重装不重置试用。</p>
+    <div class="legal"><a id="privacy" href="privacy.html">隐私政策</a><a id="terms" href="terms.html">服务条款</a><a id="support" href="support.html">技术支持</a></div>
+    <p class="feedback" id="feedback" role="status"></p>
+    <div class="website-screens">
+      <img data-scene="01" src="assets/screens/ZH-Hans/01.jpg" width="1320" height="2868" alt="导入与视频预览">
+      <img data-scene="02" src="assets/screens/ZH-Hans/02.jpg" width="1320" height="2868" alt="通用 MP4 转换">
+      <img data-scene="03" src="assets/screens/ZH-Hans/03.jpg" width="1320" height="2868" alt="HEVC 小体积转换" loading="lazy">
+      <img data-scene="04" src="assets/screens/ZH-Hans/04.jpg" width="1320" height="2868" alt="音频提取" loading="lazy">
+      <img data-scene="05" src="assets/screens/ZH-Hans/05.jpg" width="1320" height="2868" alt="视频瘦身" loading="lazy">
+      <img data-scene="06" src="assets/screens/ZH-Hans/06.jpg" width="1320" height="2868" alt="保存视频提示" loading="lazy">
+      <img data-scene="07" src="assets/screens/ZH-Hans/07.jpg" width="1320" height="2868" alt="转换完成结果" loading="lazy">
+      <img data-scene="08" src="assets/screens/ZH-Hans/08.jpg" width="1320" height="2868" alt="语言设置" loading="lazy">
+    </div>
+  </div><div class="home"></div>
+</section>
+</main>
+<script src="site.js" defer></script>
+</html>
