@@ -21,7 +21,7 @@
         f1: '通用 MP4', f2: 'HEVC 小体积', f3: '提取音频', f4: '视频瘦身',
         buyLabel: '前往 App Store · App 内买断',
         paymentNote: '美国区定价，实际金额及各地区可用性以 Apple 购买页为准；不订阅',
-        trialSummary: '三天试用仅开放通用 MP4。到期后需买断；重装不重置试用。',
+        trialSummary: '通过 Apple 免费领取三天通用 MP4 试用，不自动扣费。到期后需买断；重装不重置试用。',
         privacy: '隐私政策', terms: '服务条款', support: '技术支持'
       }
     },
@@ -39,7 +39,7 @@
         f1: 'Universal MP4', f2: 'Small HEVC', f3: 'Audio extraction', f4: 'Slim Video',
         buyLabel: 'Get Forma on the App Store',
         paymentNote: 'US pricing. Final price and regional availability are shown by Apple. No subscription.',
-        trialSummary: 'Three-day Universal MP4 trial. Purchase required after expiry; reinstalling does not restart the trial.',
+        trialSummary: 'Claim a free three-day Universal MP4 trial through Apple. No automatic charge. Purchase required after expiry; reinstalling does not restart the trial.',
         privacy: 'Privacy', terms: 'Terms', support: 'Support'
       }
     }
